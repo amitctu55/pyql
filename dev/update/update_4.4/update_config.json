@@ -1,0 +1,143 @@
+{
+    "require_version" : "4.3",
+    "directory": [],
+    "sql_file": "",
+    "files": [
+      {
+          "root_directory"    : "update/update_4.4/application/controllers/Admin.php",
+          "update_directory"  : "application/controllers/Admin.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/controllers/Home.php",
+          "update_directory"  : "application/controllers/Home.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/controllers/Login.php",
+          "update_directory"  : "application/controllers/Login.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/controllers/User.php",
+          "update_directory"  : "application/controllers/User.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/helpers/common_helper.php",
+          "update_directory"  : "application/helpers/common_helper.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/models/Api_model.php",
+          "update_directory"  : "application/models/Api_model.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/models/Crud_model.php",
+          "update_directory"  : "application/models/Crud_model.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/models/User_model.php",
+          "update_directory"  : "application/models/User_model.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/models/Addon_model.php",
+          "update_directory"  : "application/models/Addon_model.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/course_add.php",
+          "update_directory"  : "application/views/backend/admin/course_add.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/course_edit.php",
+          "update_directory"  : "application/views/backend/admin/course_edit.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/lesson_types.php",
+          "update_directory"  : "application/views/backend/admin/lesson_types.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/navigation.php",
+          "update_directory"  : "application/views/backend/admin/navigation.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/courses.php",
+          "update_directory"  : "application/views/backend/admin/courses.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/frontend_settings.php",
+          "update_directory"  : "application/views/backend/admin/frontend_settings.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/course_add_shortcut.php",
+          "update_directory"  : "application/views/backend/admin/course_add_shortcut.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/shortcut_add_student.php",
+          "update_directory"  : "application/views/backend/admin/shortcut_add_student.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/admin/shortcut_enrol_student.php",
+          "update_directory"  : "application/views/backend/admin/shortcut_enrol_student.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/header.php",
+          "update_directory"  : "application/views/backend/header.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/user/course_add.php",
+          "update_directory"  : "application/views/backend/user/course_add.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/user/course_edit.php",
+          "update_directory"  : "application/views/backend/user/course_edit.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/user/courses.php",
+          "update_directory"  : "application/views/backend/user/courses.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/user/course_add_shortcut.php",
+          "update_directory"  : "application/views/backend/user/course_add_shortcut.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/backend/user/lesson_types.php",
+          "update_directory"  : "application/views/backend/user/lesson_types.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/frontend/default/category_wise_course_list_layout.php",
+          "update_directory"  : "application/views/frontend/default/category_wise_course_list_layout.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/frontend/default/course_page.php",
+          "update_directory"  : "application/views/frontend/default/course_page.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/frontend/default/home.php",
+          "update_directory"  : "application/views/frontend/default/home.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/frontend/default/login.php",
+          "update_directory"  : "application/views/frontend/default/login.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/frontend/default/sign_up.php",
+          "update_directory"  : "application/views/frontend/default/sign_up.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/frontend/default/wishlist_items.php",
+          "update_directory"  : "application/views/frontend/default/wishlist_items.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/lessons/course_content_sidebar.php",
+          "update_directory"  : "application/views/lessons/course_content_sidebar.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/lessons/general_course_content_body.php",
+          "update_directory"  : "application/views/lessons/general_course_content_body.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/application/views/lessons/lessons.php",
+          "update_directory"  : "application/views/lessons/lessons.php"
+      },
+      {
+          "root_directory"    : "update/update_4.4/assets/backend/css/main.css",
+          "update_directory"  : "assets/backend/css/main.css"
+      }
+    ]
+  }
