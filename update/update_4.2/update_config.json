@@ -1,0 +1,78 @@
+{
+    "require_version" : "4.1",
+    "directory": [
+        {
+            "name" : "assets/global/gif"
+        },
+        {
+            "name" : "assets/global/mail"
+        }
+    ],
+    "sql_file": "",
+    "files": [
+      {
+          "root_directory"    : "update/update_4.2/application/views/lessons/lessons.php",
+          "update_directory"  : "application/views/lessons/lessons.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/views/frontend/default/includes_bottom.php",
+          "update_directory"  : "application/views/frontend/default/includes_bottom.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/views/frontend/default/verification_code.php",
+          "update_directory"  : "application/views/frontend/default/verification_code.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/assets/lessons/css/custom.css",
+          "update_directory"  : "assets/lessons/css/custom.css"
+      },
+      {
+          "root_directory"    : "update/update_4.2/assets/global/mail/email-verification.png",
+          "update_directory"  : "assets/global/mail/email-verification.png"
+      },
+      {
+          "root_directory"    : "update/update_4.2/assets/global/gif/page-loader-3.gif",
+          "update_directory"  : "assets/global/gif/page-loader-3.gif"
+      },
+      {
+          "root_directory"    : "update/update_4.2/assets/global/gif/page-loader.gif",
+          "update_directory"  : "assets/global/gif/page-loader.gif"
+      },
+      {
+          "root_directory"    : "update/update_4.2/assets/global/gif/page-loader-2.gif",
+          "update_directory"  : "assets/global/gif/page-loader-2.gif"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/models/Crud_model.php",
+          "update_directory"  : "application/models/Crud_model.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/models/User_model.php",
+          "update_directory"  : "application/models/User_model.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/models/Email_model.php",
+          "update_directory"  : "application/models/Email_model.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/controllers/Home.php",
+          "update_directory"  : "application/controllers/Home.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/controllers/Login.php",
+          "update_directory"  : "application/controllers/Login.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/views/email/template.php",
+          "update_directory"  : "application/views/email/template.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/views/email/email_verification.php",
+          "update_directory"  : "application/views/email/email_verification.php"
+      },
+      {
+          "root_directory"    : "update/update_4.2/application/views/email/common_template.php",
+          "update_directory"  : "application/views/email/common_template.php"
+      }
+    ]
+  }
