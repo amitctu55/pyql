@@ -1,0 +1,30 @@
+<IfModule authz_core_module>
+    Require all denied
+</IfModule>
+<IfModule !authz_core_module>
+    Deny from all
+</IfModule>
+
+
+//amit
+
+<IfModule mod_headers.c>
+    # Enforce HTTPS (HSTS)
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+    # Prevent MIME-type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Control allowed content sources
+    Header always set Content-Security-Policy "default-src 'self'; img-src 'self' https://trusted.cdn.com; script-src 'self' 'unsafe-inline' https://apis.google.com"
+
+    # Control referrer information sent with requests
+    Header always set Referrer-Policy "no-referrer-when-downgrade"
+
+    # Allow cross-origin access
+    Header always set Access-Control-Allow-Origin "*"
+
+    # Cross-Origin Embedder Policy
+    Header always set Cross-Origin-Embedder-Policy "require-corp"
+
+</IfModule>
