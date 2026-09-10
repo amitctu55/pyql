@@ -39,7 +39,7 @@
         </style> 
         <script type="text/javascript"
             src="https://app.sandbox.midtrans.com/snap/snap.js"
-            data-client-key="SB-Mid-client-2uDtZD3V5ZA_pNYW"></script> 
+            data-client-key="dummy_midtrans_client_key"></script> 
         <script src="<?php echo base_url(); ?>backend/custom/jquery.min.js"></script>
     </head>
     <body style="background: #ededed;">
