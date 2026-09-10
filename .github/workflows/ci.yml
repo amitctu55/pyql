@@ -1,0 +1,53 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  php-lint-and-validate:
+    name: PHP Lint & Syntax Validation
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        php-version: ['8.0']
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP Environment
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: mbstring, curl, json, mysqli, pdo_mysql, gd, zip
+          coverage: none
+
+      - name: Validate composer.json
+        run: |
+          if [ -f "composer.json" ]; then
+            composer validate --strict --no-check-all
+          fi
+
+      - name: Check PHP Syntax (Application & System)
+        run: |
+          echo "Scanning PHP files for syntax errors..."
+          ERRORS=0
+          while IFS= read -r -d '' file; do
+            if ! php -l "$file" > /dev/null 2>&1; then
+              echo "Syntax error in: $file"
+              php -l "$file"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done < <(find application system -type f -name "*.php" -print0)
+          
+          if [ $ERRORS -ne 0 ]; then
+            echo "Linting failed: Found $ERRORS syntax error(s)."
+            exit 1
+          fi
+          echo "All application and system PHP files passed syntax validation successfully!"
