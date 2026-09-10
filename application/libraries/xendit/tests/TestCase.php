@@ -37,7 +37,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
     protected function setUp(): void
     {
         $this->oriApiBase = Xendit::$apiBase;
-        $this->oriApiKey = 'xnd_development_prHUBDfVuOQTxyWTQSNkpj'
+        $this->oriApiKey = 'dummy_xendit_key'
             . 'n9OwX9ZSUjdqgF9GenZ6hwhUQkc3NZ9WVexdH';
 
         $this->oriApiVersion = Xendit::getLibVersion();
@@ -132,7 +132,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
 
         Xendit::setApiKey(
             <<<TAG
-xnd_development_prHUBDfVuOQTxyWTQSNkpjn9OwX9ZSUjdqgF9GenZ6hwhUQkc3NZ9WVexdH
+dummy_xendit_key
 TAG
         );
 

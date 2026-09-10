@@ -53,7 +53,7 @@ If you use Composer, these dependencies should be handled automatically. If you 
 Simple usage looks like:
 
 ```php
-$stripe = new \Stripe\StripeClient('sk_test_YOUR_STRIPE_TEST_SECRET_KEY');
+$stripe = new \Stripe\StripeClient('dummy_stripe_secret_key');
 $customer = $stripe->customers->create([
     'description' => 'example customer',
     'email' => 'email@example.com',
